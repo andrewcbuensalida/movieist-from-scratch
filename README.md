@@ -1,4 +1,5 @@
 https://www.youtube.com/watch?v=5PdEmeopJVQ
+https://lucid.app/lucidchart/82ae072f-03f9-4abf-bd32-babad0358ee6/edit?viewport_loc=-168%2C113%2C1673%2C870%2C0_0&invitationId=inv_5794a1c7-b764-4235-9e32-f0384d639182
 
 To setup mongodb:
 create a project called movieist in mongodb atlas
