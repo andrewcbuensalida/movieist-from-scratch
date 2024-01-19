@@ -14,7 +14,7 @@
 	<name>movieist</name>
 	<description> A Spring Boot API for reviewing movies</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
