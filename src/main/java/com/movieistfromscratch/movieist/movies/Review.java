@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor @NoArgsConstructor
 public class Review {
     // TODO why doesn't this have @Id annotation like in Movie.java?
-    private ObjectId id;
+    private ObjectId id; // this becomes an object with time and date fields in postman, but in mongodb it's ObjectId('65a966b75237642a56e6d3b5')
     private String body;
     private LocalDateTime created;
     private LocalDateTime updated;

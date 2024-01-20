@@ -24,8 +24,8 @@ public class Movie {
     private String poster;
     private List<String> backdrops;
     private List<String> genres;
-    @DocumentReference // only saves the foreign key, not the actual review. reviews will be in a separate collection.
-    private List<Review> reviews;
+    @DocumentReference // only saves the foreign key, not the actual review in mongodb, but in postman gets the whole review. reviews will be in a separate collection.
+    private List<Review> reviews; // this probably has to be reviewId
 
     public Movie(String imdbId, String title, String releaseDate, String trailerLink, String poster, List<String> backdrops, List<String> genres) {
         this.imdbId = imdbId;

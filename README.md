@@ -18,7 +18,7 @@ Even if there is no reviews collection yet in mongodb, creating a review in post
 
 Deploying to elastic beanstalk:
 In application.properties, add server.port=5000 because that's what elastic beanstalk listens to.
-Environment variables PORT and SERVER_PORT don't matter in eb.
+Environment variables PORT and SERVER_PORT and mongodb passwords don't matter in eb. Still worked even after rebuilding and restarting in eb.
 Using maven, build a jar file
 To build jar file https://www.tutorialworks.com/intellij-maven-create-jar/#:~:text=To%20create%20a%20JAR%20file%20from%20a%20Maven%20project%20in,written%20to%20the%20target%2F%20directory.
 View > Tool Windows > Maven > Expand <Project Folder> > Lifecycle > package
