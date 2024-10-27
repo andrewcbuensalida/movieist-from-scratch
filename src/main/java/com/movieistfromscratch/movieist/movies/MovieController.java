@@ -16,7 +16,7 @@ import java.util.Optional;
 @RequestMapping("/api/v1/movies")
 public class MovieController {
 
-    @Autowired // Autowired searches spring container for the MovieService object. Able to do so because @Service in MovieService.java?
+    @Autowired // Autowired searches spring container for the MovieService object. Able to do so because @Service in MovieService.java
     private MovieService service;
 
     @GetMapping

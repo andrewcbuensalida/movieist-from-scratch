@@ -29,7 +29,7 @@ Make sure everything is the same version, so File > Settings > Build, Execution,
 
 This will generate a .jar file in the Target folder.
 
-The .env will (not) be included in the jar?
+The .env will be included in the jar
 
 To run .jar,
 java -jar path/to/jar
